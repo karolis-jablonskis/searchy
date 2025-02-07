@@ -1,5 +1,8 @@
 # searchy
 
-Application used to search for specific data by scanning or entering the name.
+Application used to search for pictures by scanning a barcode or entering manually.
 
-It returns as a picture on the default viewer
+Specify the location, add the pictures with exact names it will be searched by.
+
+a logo is possible, just name the file "logo.png"
+
