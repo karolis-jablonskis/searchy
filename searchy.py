@@ -63,7 +63,7 @@ root.title("MRK Guide")
 root.configure(bg="white")
 
 # Set window size and position
-window_width, window_height = 650, 250
+window_width, window_height = 650, 245
 screen_width, screen_height = root.winfo_screenwidth(), root.winfo_screenheight()
 position_left = int((screen_width - window_width) / 2)
 position_top = 0
