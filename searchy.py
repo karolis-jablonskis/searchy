@@ -1,10 +1,22 @@
 import os
 import json
+import configparser
 import tkinter as tk
 from tkinter import messagebox, PhotoImage
 
-# Preset directory
-PRESET_DIRECTORY = ""  # Change this to your desired directory
+# Read configuration from config.ini
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+# Check if the necessary section and key exist in the config file
+if 'Paths' in config and 'config_file' in config['Paths']:
+    config_file_path = config['Paths']['config_file']
+else:
+    messagebox.showerror("Error", "The config.ini file is missing necessary sections.")
+    exit()  # Exit if configuration file is incorrect
+
+# Preset directory from the config file
+PRESET_DIRECTORY = config_file_path  # Set the directory from config file
 
 def search_and_open_file(directory, filename):
     filename = filename.lower()
