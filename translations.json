@@ -7,5 +7,23 @@
       "enter_code": "Please enter the File name!",
       "file_not_found": "File not found.",
       "lang": "Language"
+    },
+        "lt": {
+      "header": "Header",
+      "code_label": "File Name:",
+      "search": "Search",
+      "clear": "Clear",
+      "enter_code": "Please enter the File name!",
+      "file_not_found": "File not found.",
+      "lang": "Language"
+    },
+        "ru": {
+      "header": "Header",
+      "code_label": "File Name:",
+      "search": "Search",
+      "clear": "Clear",
+      "enter_code": "Please enter the File name!",
+      "file_not_found": "File not found.",
+      "lang": "Language"
     }
   }
