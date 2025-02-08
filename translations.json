@@ -9,13 +9,13 @@
       "lang": "Language"
     },
         "lt": {
-      "header": "Header",
+      "header": "Pavadinimas",
       "code_label": "File Name:",
-      "search": "Search",
-      "clear": "Clear",
+      "search": "Ieskoti",
+      "clear": "Isvalyti",
       "enter_code": "Please enter the File name!",
-      "file_not_found": "File not found.",
-      "lang": "Language"
+      "file_not_found": "Nerasta.",
+      "lang": "Kalba"
     },
         "ru": {
       "header": "Header",
