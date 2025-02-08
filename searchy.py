@@ -71,7 +71,7 @@ current_language = "lt"  # Default language
 
 # GUI Setup
 root = tk.Tk()
-root.title("MRK Guide")
+root.title("Searchy")
 root.configure(bg="white")
 
 # Set window size and position
