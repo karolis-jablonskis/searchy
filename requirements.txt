@@ -1,0 +1,2 @@
+# This is a requirements.txt for your project.
+# No external packages are required as the libraries you are using are built into Python
