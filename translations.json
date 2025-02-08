@@ -19,11 +19,11 @@
     },
         "ru": {
       "header": "Header",
-      "code_label": "File Name:",
-      "search": "Search",
-      "clear": "Clear",
-      "enter_code": "Please enter the File name!",
-      "file_not_found": "File not found.",
-      "lang": "Language"
+      "code_label": "Имя файла:",
+      "search": "Поиск",
+      "clear": "Прозрачный",
+      "enter_code": "Пожалуйста, введите имя файла!",
+      "file_not_found": "Файл не найден.",
+      "lang": "Язык"
     }
   }

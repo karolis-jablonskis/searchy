@@ -67,7 +67,7 @@ def update_interface():
 
 # Load translations
 translations = load_translations("translations.json")
-current_language = "lt"  # Default language
+current_language = "en"  # Default language
 
 # GUI Setup
 root = tk.Tk()
@@ -87,7 +87,7 @@ language_menu = tk.Menu(menu_bar, tearoff=0)
 language_menu.add_command(label="Lietuvių", command=lambda: change_language("lt"))
 language_menu.add_command(label="Русский", command=lambda: change_language("ru"))
 language_menu.add_command(label="English", command=lambda: change_language("en"))
-menu_bar.add_cascade(label="*", menu=language_menu)
+menu_bar.add_cascade(label="Language", menu=language_menu)
 root.config(menu=menu_bar)
 
 # Logo setup
